@@ -166,7 +166,7 @@ Histograms with Kernel Density Estimation (KDE) plotted for `ExerciseAngina`, `S
 
 ## 📈 4. Training and Validation Accuracy Plot
 
-![Image](https://github.com/user-attachments/assets/699f065f-1da2-4034-9c6d-8799dde245b7)
+![Image](https://github.com/user-attachments/assets/5cf81251-7fcb-480b-a651-65793614dc09)
 
 The training and validation accuracy curves showed a steady increase over epochs, demonstrating that the model was able to learn meaningful patterns from the data without overfitting. Throughout training, there was no significant divergence between the training and validation accuracy lines — both curves rose together in a consistent manner. This close alignment suggests that the model was generalizing well to unseen validation data, rather than simply memorizing the training set. Additionally, early stopping was employed effectively: training halted at the point where validation performance no longer improved, ensuring the final model retained the best weights without undergoing unnecessary extra epochs.
 
@@ -174,6 +174,6 @@ The training and validation accuracy curves showed a steady increase over epochs
 
 ## 📉 5. Training and Validation Loss Plot
 
-![Image](https://github.com/user-attachments/assets/4cefb1a8-2c1a-4da4-8ac5-971e3335ac42)
+![Image](https://github.com/user-attachments/assets/c9a87852-eb99-4db8-ad98-5e0f6fa1047d)
 
 The training and validation loss curves both decreased together during the initial training epochs, indicating that the model was successfully minimizing the loss function on both training and validation data. After several epochs, the curves began to flatten, suggesting that the model had converged and reached a point of stable performance. Importantly, there was no evidence of severe overfitting: the validation loss did not begin to increase while training loss continued to drop, which would have indicated model over-specialization. Instead, both loss metrics behaved consistently, supporting the conclusion that the model trained efficiently and retained good generalization capability to new data.
