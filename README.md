@@ -4,13 +4,13 @@ Heart disease is one of the leading causes of mortality worldwide, and early det
 
 ## Table of Contents
 
-- [Dataset](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Project Structure](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Setup and Installation](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Model Architecture](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Training Process](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Results](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Visualization](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
+- [Dataset]
+- [Project Structure]
+- [Setup and Installation]
+- [Model Architecture]
+- [Training Process]
+- [Results]
+- [Visualization]
 
 ## Dataset
 
