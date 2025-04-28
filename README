@@ -5,7 +5,7 @@ Heart disease is one of the leading causes of mortality worldwide, and early det
 Table of Contents
 Dataset
 
-Project Structure
+Project-Structure
 
 Setup and Installation
 
@@ -17,21 +17,23 @@ Results
 
 Visualization
 
+Acknowledgements
+
 Dataset
 The dataset used (heart.csv) is loaded from Google Drive and contains information about various patient features such as:
 
 
 Feature	Description
 Age	The age of the patient (in years).
-Sex	The
-ChestPainType	Type of chest pain experienced: TA (Typical Angina), ATA(NAP(Non-anginal Pain), `ASY (Asymptomatic).
+Sex	The gender of the patient: 1 = Male, 0 = Female.
+ChestPainType	Type of chest pain experienced: TA (Typical Angina), ATA (Atypical Angina), NAP (Non-Anginal Pain), ASY (Asymptomatic).
 RestingBP	Resting blood pressure (in mm Hg) when the patient was admitted.
 Cholesterol	Serum cholesterol level (in mg/dl).
-FastingBS	Fasting
-RestingECG	RestNormal, ST, LVH.
+FastingBS	Fasting blood sugar > 120 mg/dl: 1 = True, 0 = False.
+RestingECG	Resting electrocardiogram results: Normal, ST, LVH.
 MaxHR	Maximum heart rate achieved during exercise.
-Exercise	Whether the patient experienced exercise-induced angina: Y = Yes, N = No.
-Old peak	ST depression induced by exercise relative to rest.
+ExerciseAngina	Whether the patient experienced exercise-induced angina: Y = Yes, N = No.
+Old peak	Depression of the ST segment induced by exercise relative to rest.
 ST_Slope	Slope of the peak exercise ST segment: Up, Flat, Down.
 HeartDisease	Target variable: 1 = Presence of heart disease, 0 = No heart disease.
 Target Variable: HeartDisease (Binary classification: 0 = No Heart Disease, 1 = Presence of Heart Disease)
@@ -50,21 +52,9 @@ Cross-Validation: Uses 5-fold Stratified K-Fold cross-validation for evaluation.
 Visualization: Accuracy and loss plots over training epochs.
 
 Setup and Installation
-Environment: The code is designed to run in Google Colab.
+The project is designed to run in Google Colab.
 
-Libraries:
-
-TensorFlow
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Seaborn
-
-Matplotlib
+Install required libraries using:
 
 bash
 
@@ -84,9 +74,7 @@ Hidden Layer 2 : 32 neurons, ReLU activation
 Output Layer: 1 neuron, Sigmoid activation (for binary classification)
 
 Optimizer: Adam
-
 Loss Function: Binary Crossentropy
-
 Metric: Accuracy
 
 Training Process
@@ -106,7 +94,7 @@ The model's performance was evaluated using 5-fold stratified cross-validation.
 📋 Fold-Wise Performance
 
 Fold	Validation Accuracy	Validation Loss
-1	87.50%	0.
+1	87.50%	0.3281
 2	82.61%	0.3570
 3	81.52%	0.4209
 4	89.07%	0.3060
@@ -128,38 +116,42 @@ Visualization
 Description:
 A bar plot showing the count of patients with (1) and without (0) heart disease.
 
-Insight (Based on Results):
+Insight:
 
-The classes are relatively balanced, with a slightly higher number of patients with heart disease.
+The classes are relatively balanced, slightly more patients have heart disease.
 
-This balance ensures that the model will not be biased toward one class.
+This balance reduces bias during training.
 
 🧩 2. Feature Correlation Heatmap
 Description:
-A heatmap illustrating Pearson correlation coefficients between all encoded features and the target variable (HeartDisease).
+A heatmap illustrating Pearson correlations between features and the target.
 
-Insight (Based on Results):
+Insight:
 
-ExerciseAngina shows a positive correlation with heart disease.
+ExerciseAngina, Sex, and Oldpeak show notable positive correlations with heart disease.
 
-Sex (male) has a positive correlation with heart disease risk.
-
-Oldpeak also correlates positively, suggesting that greater ST depression is linked with heart disease.
+These features are important predictors.
 
 📈 3. Individual Feature Distributions
 Description:
-Histograms (with KDE) for ExerciseAngina, Sex, and Oldpeak.
+Histograms with KDE for ExerciseAngina, Sex, and Oldpeak.
 
-Insights (Based on Results):
+Insights:
 
-Majority of patients do not experience angina during exercise.
+Most patients do not experience angina during exercise.
 
-More males than females in the dataset.
+There are more males than females.
 
-Most patients have low Oldpeak values, but a minority show significantly higher values, linked to increased heart disease risk.
+Higher Oldpeak values are linked with heart disease.
 
 📈 4. Training and Validation Accuracy Plot
-The training and validation accuracy curves showed a steady increase over epochs, demonstrating that the model learned meaningful patterns without overfitting. No significant divergence was observed, and early stopping effectively retained the model at its best point.
+The training and validation accuracy steadily increased over epochs, without major divergence, indicating good generalization. Early stopping was triggered to save the best model based on validation performance.
 
 📉 5. Training and Validation Loss Plot
-Both training and validation losses decreased together during the early epochs and flattened later, indicating stable convergence. No major overfitting was detected, supporting the model’s generalization capability.
+Both training and validation loss curves decreased together initially and flattened later, confirming model convergence without overfitting.
+
+Acknowledgements
+Developed using TensorFlow, Keras, Pandas, Scikit-learn, Seaborn, and Matplotlib.
+
+Dataset sourced from publicly available heart disease data repositories.
+
