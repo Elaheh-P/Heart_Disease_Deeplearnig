@@ -177,3 +177,11 @@ The training and validation accuracy curves showed a steady increase over epochs
 ![Image](https://github.com/user-attachments/assets/c9a87852-eb99-4db8-ad98-5e0f6fa1047d)
 
 The training and validation loss curves both decreased together during the initial training epochs, indicating that the model was successfully minimizing the loss function on both training and validation data. After several epochs, the curves began to flatten, suggesting that the model had converged and reached a point of stable performance. Importantly, there was no evidence of severe overfitting: the validation loss did not begin to increase while training loss continued to drop, which would have indicated model over-specialization. Instead, both loss metrics behaved consistently, supporting the conclusion that the model trained efficiently and retained good generalization capability to new data.
+---
+
+## ✉ Contact
+If you have any questions or feedback, feel free to reach out!
+- **LinkedIn:** www.linkedin.com/in/elaheh-p-9918432a6
+
+ **If you find this project useful, please ⭐ star the repository!** ⭐
+
