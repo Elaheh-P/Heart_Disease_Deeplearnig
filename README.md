@@ -109,7 +109,8 @@ The model's performance was evaluated using 5-fold stratified cross-validation.
 
 ### 📊 1. Class Distribution Plot
 
-**Description**) heart disease.:
+**Description**) heart disease:
+![Image](https://github.com/user-attachments/assets/6d70aaee-61e3-4429-9aca-c709ad1e4902)
 
 A bar plot showing the count of patients with (`1`) and without (`0`) heart disease.
 
