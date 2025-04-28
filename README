@@ -1,3 +1,7 @@
 # Introduction
 
-Heart disease is one of the leading causes of mortality worldwide, and early detection plays a crucial role in improving patient outcomes. This project focuses on developing a deep learning model to predict the presence of heart disease based on various clinical features. The model is built using a structured dataset and employs thorough preprocessing techniques to optimize performance. To ensure a reliable and unbiased evaluation, stratified K-fold cross-validation is utilized, allowing for consistent assessment across different subsets of the data. The objective is to demonstrate the potential of deep learning methods in supporting clinical decision-making and enhancing the early diagnosis of heart conditions.
+Heart disease is one of the leading causes of mortality worldwide, and early detection plays a crucial role in improving patient outcomes.
+This project focuses on developing a deep learning model to predict the presence of heart disease based on various clinical features.
+The model is built using a structured dataset and employs thorough preprocessing techniques to optimize performance.
+To ensure a reliable and unbiased evaluation, stratified K-fold cross-validation is utilized, allowing for consistent assessment across different subsets of the data. 
+The objective is to demonstrate the potential of deep learning methods in supporting clinical decision-making and enhancing the early diagnosis of heart conditions.
