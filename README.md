@@ -148,6 +148,7 @@ These features capture key physiological and demographic risk factors, and are e
 Histograms with Kernel Density Estimation (KDE) plotted for `ExerciseAngina`, `Sex`, and `Oldpeak`.
 
 - **ExerciseAngina**:
+  
   ![Image](https://github.com/user-attachments/assets/83eab6ce-0cde-4942-8bae-b02ace31cb7c)
     - Majority of patients do **not** experience angina (`ExerciseAngina = 0`), but those who do are more likely to have heart disease based on correlation.
 - **Sex**:
