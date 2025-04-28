@@ -114,8 +114,6 @@ The model's performance was evaluated using 5-fold stratified cross-validation.
 
 A bar plot showing the count of patients with (`1`) and without (`0`) heart disease.
 
-**Insight (Based on Results)**:
-
 - The classes are relatively **balanced**, with a slightly higher number of patients with heart disease.
 - This balance is beneficial because it means the model won't be biased towards predicting one class over another during training.
 
@@ -124,10 +122,9 @@ A bar plot showing the count of patients with (`1`) and without (`0`) heart dise
 ### 🧩 2. Feature Correlation Heatmap
 
 **Description**:
+![Image](https://github.com/user-attachments/assets/0cc541e1-0318-4eac-ad4d-c57312c215b4)
 
 A heatmap illustrating Pearson correlation coefficients between all encoded features and the target variable (`HeartDisease`).
-
-**Insight (Based on Results)**:
 
 - **ExerciseAngina** shows a **positive correlation** with heart disease: patients who experience angina during exercise are more likely to have heart disease.
 - **Sex** (where 1 = male) has a **positive correlation**, suggesting **males** are at a higher risk.
