@@ -152,10 +152,12 @@ Histograms with Kernel Density Estimation (KDE) plotted for `ExerciseAngina`, `S
   ![Image](https://github.com/user-attachments/assets/83eab6ce-0cde-4942-8bae-b02ace31cb7c)
     - Majority of patients do **not** experience angina (`ExerciseAngina = 0`), but those who do are more likely to have heart disease based on correlation.
 - **Sex**:
+  
   ![Image](https://github.com/user-attachments/assets/9fa5781e-7f0c-4468-a3b4-d3eb0b2a38db)
     - There are **more males than females** in the dataset.
     - Since males are more correlated with heart disease, the slight imbalance might influence predictions toward higher risk for males.
 - **Oldpeak** :
+  
   ![Image](https://github.com/user-attachments/assets/5141bb71-c2f1-452e-b166-ca4c0d8f46ff)
     - Most patients have a **low Oldpeak value**, but a smaller group has significantly higher values.
     - Higher Oldpeak values (more severe ST depression) are associated with an increased likelihood of heart disease.
