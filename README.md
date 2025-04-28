@@ -126,10 +126,19 @@ A bar plot showing the count of patients with (`1`) and without (`0`) heart dise
 
 A heatmap illustrating Pearson correlation coefficients between all encoded features and the target variable (`HeartDisease`).
 
-- **ExerciseAngina** shows a **positive correlation** with heart disease: patients who experience angina during exercise are more likely to have heart disease.
-- **Sex** (where 1 = male) has a **positive correlation**, suggesting **males** are at a higher risk.
-- **Oldpeak** (measure of ST depression) has a **moderate positive correlation** with heart disease — higher values are associated with higher risk.
-- These features are influential and are expected to significantly impact model predictions.
+ExerciseAngina:
+Exhibits a strong positive correlation with heart disease. Patients who experience angina (chest pain) during exercise are much more likely to be diagnosed with heart disease, making this feature a critical clinical indicator of cardiac risk.
+
+Sex:
+Shows a positive correlation, indicating that males (Sex = 1) are at a significantly higher risk of heart disease compared to females. This aligns with known epidemiological trends where heart disease prevalence is often greater among male populations.
+
+Oldpeak:
+Displays a moderate positive correlation with heart disease. Higher Oldpeak values — reflecting greater levels of ST segment depression during exercise — are typically associated with more severe cardiac abnormalities, thereby increasing the likelihood of heart disease diagnosis.
+
+Overall:
+These features capture key physiological and demographic risk factors, and are expected to be among the most influential contributors to the model’s predictive capability. Their strong associations with heart disease underline their importance in both clinical evaluation and automated prediction systems.
+
+
 
 ---
 
