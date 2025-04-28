@@ -11,7 +11,6 @@ Heart disease is one of the leading causes of mortality worldwide, and early det
 - [Training Process](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
 - [Results](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
 - [Visualization](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
-- [Acknowledgements](https://www.notion.so/Heart-Disease-Prediction-using-Deep-Learning-1e3045922c458025a13ec2622329ef9d?pvs=21)
 
 ## Dataset
 
@@ -126,16 +125,16 @@ A bar plot showing the count of patients with (`1`) and without (`0`) heart dise
 
 A heatmap illustrating Pearson correlation coefficients between all encoded features and the target variable (`HeartDisease`).
 
-ExerciseAngina:
+- ExerciseAngina:
 Exhibits a strong positive correlation with heart disease. Patients who experience angina (chest pain) during exercise are much more likely to be diagnosed with heart disease, making this feature a critical clinical indicator of cardiac risk.
 
-Sex:
+- Sex:
 Shows a positive correlation, indicating that males (Sex = 1) are at a significantly higher risk of heart disease compared to females. This aligns with known epidemiological trends where heart disease prevalence is often greater among male populations.
 
-Oldpeak:
+- Oldpeak:
 Displays a moderate positive correlation with heart disease. Higher Oldpeak values — reflecting greater levels of ST segment depression during exercise — are typically associated with more severe cardiac abnormalities, thereby increasing the likelihood of heart disease diagnosis.
 
-Overall:
+- Overall:
 These features capture key physiological and demographic risk factors, and are expected to be among the most influential contributors to the model’s predictive capability. Their strong associations with heart disease underline their importance in both clinical evaluation and automated prediction systems.
 
 
